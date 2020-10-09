@@ -1,0 +1,116 @@
+.backgroundImg {
+  background: url("https://i.pinimg.com/originals/8b/7f/bc/8b7fbc2e623720393ad7ffa7e4896eac.gif")
+    no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.backgroundRain {
+  background: url("https://cdn.lowgif.com/full/f48281b89ea2223c-.gif") no-repeat
+    center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.headerArea {
+  display: flex;
+  justify-content: center;
+}
+.headerImg {
+  width: 40%;
+  height: 200px;
+  border-radius: 30px;
+}
+.button1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.inputCityArea {
+  display: flex;
+  justify-content: center;
+}
+.body-left-img {
+  /* position: relative; */
+  width: 100%;
+}
+.body-img {
+  /* min-width: 100%; */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius:15px;
+}
+
+.weatherDetail1 {
+  width: 200px;
+
+}
+.forecastArea {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  margin: 60px;
+  flex-wrap: wrap;
+}
+
+.showWeatherBody {
+  margin-left: 20px;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showWeatherBody {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.info {
+  position: relative;
+  text-align: center;
+  width: 170px;
+  height: 150px;
+}
+
+.text-on-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.daily-text {
+  text-align: center;
+  padding: 30px 10px 10px 10px;
+
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  left: 0;
+}
+
+.cuc-boc {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  /* left: 350px; */
+
+  animation: bounce 2s linear infinite;
+}
+@keyframes bounce {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 0%;
+  }
+}
