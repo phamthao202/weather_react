@@ -11,7 +11,6 @@ import {
   Row,
   Col,
 } from "react-bootstrap";
-require("dotenv").config();
 import WeatherNow from "./weatherCard/WeatherNow";
 import WeatherForecast from "./weatherCard/weatherForecast";
 import w3 from "./images/w3.jpg";
