@@ -61,9 +61,9 @@ function App() {
   return (
     <div
       className={
-        weatherData && weatherData.current.weather[0].main === "Clear"
-          ? "backgroundImg"
-          : "backgroundRain"
+        weatherData && weatherData.current.weather[0].main === "Rain"
+          ? "backgroundRain"
+          : "backgroundImg"
       }
     >
       <div className="headerArea">
